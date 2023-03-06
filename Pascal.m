@@ -3,12 +3,17 @@ clear
 n=input("Enter value: ");
 sum = 1;
 
-for i=1:n
-    for k=n:-1:i
+for a=1:n+1    
+    fprintf("%s", " ");
+end
+fprintf('%d \n', 1);
+for b=1:n
+    for c=n:-1:b
         fprintf("%s", " ");
     end
-    for j=1:i
-        fprintf(' %d', i);
+    fprintf('%d %d', 1, b);
+    for d=2:b-2
+        fprintf(' %d', b+1);
     end
-    fprintf('\n');
+    fprintf(' %d %d \n',b, 1);
 end

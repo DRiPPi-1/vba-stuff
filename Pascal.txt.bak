@@ -1,0 +1,38 @@
+Problem Statement of Pascal’s Triangle
+
+ 
+Figure 1: Pascal's Triangle to the 6th coefficient
+
+Figure 1 is what I’m trying to generate with MATLAB 
+and/or VBA. I created the problem myself since I found 
+Pascal’s Triangle interesting. Pascal’s Triangle is used 
+to find the coefficients of any binomial expression, such 
+as (x + y)^n. 
+So, if you have the exponent n=1, then the expression is 
+(x + y)^1, and you get an expansion of x + y (also written 
+as 1x+1y), which has the coefficients 1 & 1 (or 1 1).
+
+n=0: (x + y)^0=1
+coefficient=1
+
+n=1: (x +y)^1  =x+y
+coefficients=1 1
+
+n=2: (x +y)^2=x^2+2xy+y^2
+coefficients=1 2 1
+
+n=3: (x + y)^3=x^3+3x^2 y+3xy^2+y^3
+coefficients=1 3 3 1
+
+∴ the triangle becomes:
+
+      1
+    1   1
+  1   2   1
+1   3   3   1
+
+I want the user to input any integer, n, to calculate 
+the coefficients of the expressions. Maybe later when 
+I solved this stage of the problem, I will just find 
+the whole expansion of the nth expression.
+
